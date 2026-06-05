@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SpaceChat</title>
+
+<link rel="stylesheet" href="css/chat.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+<!-- پروفایل -->
+<div class="profile">
+
+<img id="myAvatar" src="">
+
+<h3 id="myName"></h3>
+
+</div>
+
+<!-- دکمه چت عمومی -->
+<div id="publicBtn" class="user">
+💬 Public Chat
+</div>
+
+<!-- لیست کاربران -->
+<div class="sidebar-title">
+کاربران
+</div>
+
+<div id="userList"></div>
+
+</div>
+
+<!-- CHAT AREA -->
+<div class="chat-area">
+
+<!-- عنوان چت -->
+<div class="chat-header">
+
+<span id="chatTitle">
+چت عمومی
+</span>
+
+</div>
+
+<!-- پیام‌ها -->
+<div id="messages"></div>
+
+<!-- ارسال پیام -->
+<div class="sendBox">
+
+<input id="messageInput" placeholder="پیام...">
+
+<button id="sendBtn">
+ارسال
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script type="module" src="js/chat.js"></script>
+
+</body>
+</html>
